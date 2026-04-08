@@ -6,7 +6,7 @@ export async function onRequest(context) {
 
   if (!idBusqueda) return new Response("ID no proporcionado", { status: 400 });
 
-  const SHEET_URL = "https://docs.google.com/spreadsheets/d/1RfalUa46n05Tg29T8BF-2uWb5o32vVqevSjwCyr4azU/export?format=csv&gid=0";
+  const SHEET_URL = "https://docs.google.com/spreadsheets/d/1RfalUa46n05Tg29T8BF-2uWb5o32vVqevSjwCyr4azU/export?format=csv";
   const URL_CONFIG = "https://docs.google.com/spreadsheets/d/1RfalUa46n05Tg29T8BF-2uWb5o32vVqevSjwCyr4azU/export?format=csv&gid=320504428";
 
   try {

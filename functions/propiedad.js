@@ -6,8 +6,8 @@ export async function onRequest(context) {
 
   if (!idBusqueda) return new Response("ID no proporcionado", { status: 400 });
 
-  const SHEET_URL = "https://docs.google.com/spreadsheets/d/1VctscCRyoQ-sdWa1vlGG0xsjjGY5Jznw6LaK20syz3g/export?format=csv&gid=0";
-  const URL_CONFIG = "https://docs.google.com/spreadsheets/d/1VctscCRyoQ-sdWa1vlGG0xsjjGY5Jznw6LaK20syz3g/export?format=csv&gid=563916861";
+  const SHEET_URL = "https://docs.google.com/spreadsheets/d/1RfalUa46n05Tg29T8BF-2uWb5o32vVqevSjwCyr4azU/export?format=csv&gid=0";
+  const URL_CONFIG = "https://docs.google.com/spreadsheets/d/1RfalUa46n05Tg29T8BF-2uWb5o32vVqevSjwCyr4azU/export?format=csv&gid=320504428";
 
   try {
     // ESTA ES LA PARTE QUE TE FALTABA: Pedir ambos al mismo tiempo
